@@ -4,10 +4,9 @@ char *output = NULL;
 long opos, osize;
 
 /**
- * This function is provided for you if you wish to use it.  It prints into
- * a string buffer (output) that is dynamically re-sized to fit.  It otherwise
- * has the same syntax as printf().  It returns the current position in the
- * output buffer, but you will probably not need it.
+ * It prints into a string buffer (output) that is dynamically re-sized to fit.
+ * It otherwise has the same syntax as printf(). It returns the current position in the
+ * output buffer.
  */
 static long oprint(char *fmt, ...)
 {
