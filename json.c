@@ -19,8 +19,7 @@ char *json_encode(VALUE *v) __attribute__ ((visibility ("default") ));
 /**
  * These are the interfaces to the library.
  * json_decode should return NULL if it fails to parse the input for any reason.
- * json_encode probably should too, but I didn't put any error checking in mine,
- *   you can do better than me.
+ * json_encode probably should too, but I didn't put any error checking in mine
  */
 VALUE *json_decode(char *s)
 {
